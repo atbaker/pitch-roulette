@@ -7,8 +7,8 @@ products = [
     "your new frontend JavaScript framework",
     "your new AI home assistant",
     "your new VR-based social network",
-    "your new cross-platform mobile framework (this one\'s going to work guys!)",
-    "your new smart home product which doesn't let you control your lights or thermostat",
+    "your new cross-platform mobile framework (this one's going to work guys!)",
+    "your new smart home product which doesn't let you control your home's lights or temperature",
     "your new fancy monthly subscription service (like Trunk Club or Birchbox)"
 ]
 
@@ -19,7 +19,7 @@ audiences = [
     "Amelia Earheart (p.s. you found her frozen at the North Pole and just thawed her out, Captain America-style, so you've got a lot of explaining to do)",
     "Colombian singing sensation Shakira",
     "the anesthesiologist putting you under before your (group) appendectomy",
-    "(( placeholder for famous kid ))"
+    "Charlie and his brother from the \"Charlie bit my finger\" video"
 ]
 
 def shuffle_and_pop():
