@@ -9,17 +9,19 @@ products = [
     "your new VR-based social network",
     "your new cross-platform mobile framework (this one's going to work guys!)",
     "your new smart home product which doesn't let you control your home's lights or temperature",
-    "your new fancy monthly subscription service (like Trunk Club or Birchbox)"
+    "your new fancy monthly subscription service (like Trunk Club or Birchbox)",
+    "your new way to deploy web applications that's better than serverless *and* Docker"
 ]
 
 audiences = [
-    'the queen of England',
+    "the queen of England",
     "the judges of Shark Tank (/ Dragon's Den)",
     "actor Keanu Reeves",
     "Amelia Earheart (p.s. you found her frozen at the North Pole and just thawed her out, Captain America-style, so you've got a lot of explaining to do)",
     "Colombian singing sensation Shakira",
     "the anesthesiologist putting you under before your (group) appendectomy",
-    "Charlie and his brother from the \"Charlie bit my finger\" video"
+    "Charlie and his brother from the \"Charlie bit my finger\" video",
+    "yourselves, but 10 years ago"
 ]
 
 def shuffle_and_pop():
@@ -54,6 +56,8 @@ def choose():
 
     while len(products) > 0:
             shuffle_and_pop()
+
+    click.echo('No more topics!')
 
 if __name__ == '__main__':
     choose()
